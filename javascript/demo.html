@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div id="screen" class="scree" style="width: 300px; height: 300px; border:1px solid;">
+  </div>
+ <button onclick="color('red')">Red</button>
+ <button onclick="color('green')">Green</button>
+ <button onclick="color('blue')">Blue</button>
+ <button onclick="color('orange')">Orange</button>
+  </div>
+    <script>
+  
+        function color(col){
+          document.getElementById("screen").style.backgroundColor=col
+        }
+    </script>
+</body>
+</html>

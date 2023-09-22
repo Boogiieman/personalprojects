@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first project</title>
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOMAAADeCAMAAAD4tEcNAAAAllBMVEX///8AAACAgIDK0+JAQEDI0eDEzdyEhIR+fn7y8vKPmKODjJaIkZtgYGC8x9Rxdn0vLy/o6Oijp600NDRRUVGrq6tLS0s7OzuXoKqNjY2cprAXGBhoaGjDw8NbW1vNzc2YmJjZ2dl1dXWjo6O1tbUmJiYeHh4ODg5tbW1FRUXr6+uenp7e3t4iIiITExOtt8Stsri7u7vI0dVwAAAE20lEQVR4nO3d63biNhQFYAwGG1qnpFwdGDAOBAwkM3n/l+t0TRvvw6zjCCEbYvb+SzjosyBLMpJotOqfxrUbUEForEf+M3Y6D7VLWxrb33/8fX6mf1WVqUXrfnxvtdHY6TUssvKqyqNN83od0Y+dP2po/JNGGmmkkUYaaaSRxq6a5axfWgZvszzeSm+EE2OqXt2FzdU1TRjkibdqG2K9whnGQK0/dy/LkzbzBBu1DYlegUYRGksLjTT+Co0iNJYWGmn8lTOMTbX+0LULs0shM/fGAVb5VqbEMAcYoAeR72cfedUverFxfGvGJIQ37sKH9LGpkXgSjTReITTSSCONVYbGOhon92CEbNwbl0FskqDgFr2arl47gIlWM8QsSjCmoUlSC2Kjq9duaglKMaovh7E0GtWmkUYaaaSRRhovMbbvwFjYj75uxOUWekIro1ntIDA1nvRjL5rniZYryPoZEvYHJtkc4DkHfQXRI/5dsjGq3Z8DMphjg/w5ZnpinOLl8PbYjjUMlZvishUEh9fpUTWuxN8Z1o6EESeT4jsMb9opMooLvw61t0ZBcKaQ6v24wo8gjTTSSCONNNJYM2PROOcLG5s4QNeNRxyGh3ZGSLXGDDJYia5b53lPYBVK5n9e9jdjM/05+N79H9m6so0iwvgNh+GRTTlhxDdMsLsVI5abX27E0EgjjTTSSCONNNbJeAdjuRTvjN/MmNyp8ZpzqwqNV5sj00gjjTTSSCONX9+Iax6GN2BcuDcuR3nWwUAtWaZxF+Kd56Zzo4hYgySnMmUaxWKa97BkYwr1qzPq/yBopJFGGmmkkUYanRlh2GjaQt1ouuahUuMqgcTjoUmy5T5PF0ebzdSowNCv1GiVZzwKB4nh2qbcbRq1fajhiEYaaaSRRhpppJFGC+PpHk9vm+frGreY036Ue3UneDnebdoR4jBcP3XTdE9vrI3qy9hzbRqxZ1j/XsTUmGjvhDL2ztNII4000kgjjTTeuzHGpewTT4vpOTvCKM6ZEd8mVGsc43TgBctZTTVu8txOYZzReLbRp5FGGmmkkUYav4TxJsdyl/9m0GSTRzTDe7Ypd8CBOPaj/W8GPUL2cTbOs0vUiAr7n0/8CJZ71E9n78ZYThzdOIQmjPvbt494MVYXy86tf8NrLE95x8X6Zj1SEHEGezDADar4CfRF1yV6PWujuqc7cGDEctJFI4000kgjjTTSWIJRHMOY6SejOzCKm+saMdtig2InxuMSkohhpBhSrkcX5nk8HC4+MntR4h2wQQVLic4wiqw9NYH6q0aGSUXX6S9kOtlzb9yqn1TThDTSSCONNNJII40FRtOF0bbGkaFRH7rrEcbsesbjCI5QT1RjIG5sLyKIeGSIjyxe4QsEuQb9sM5fd2S6ot/WKMG6Ucx/cK4iZ38zHx7RlyrZbVRwYlzpxjdhxM+Z6KAXfIRGGmmkkUYaaaTxVo2Ymhqj/B73IpLj1boYC0IjjTTSSCONNNJ4f8ZXGm/AeIx2SlIxJu8PIGKTwAwfmWjVdtH+88aUZCyIfpyMnsxxG27R6DtuA42Xh0YaXYXGy0Mjja5yF8bCM/Quz+vnpNKNvdMzLbtO0+i/zc7NNmu4bcST7Mf2w1PPaZ5s4rgJDy1h/JdZt7RavxlrHBrrkXsw/gND6zkCR58AEAAAAABJRU5ErkJggg==" type="image/gif" sizes="16x16">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header class="bg-info" style="position:fixed; width: 100%; z-index: 1;" >
+       <div class="row text-white">
+          <div class="col-md-6 col-9 p-3 ps-5">
+              <h2>Rahul</h2>
+          </div>  
+          <div class="col-md-6 col-3 my-auto">
+            <nav class="navbar navbar-expand-lg navbar-light bg-info">
+              <div class="container-fluid">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link text-white" aria-current="page" href="#home-section">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#services-section">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#contact-section">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div> 
+          
+       </div>
+    </header>
+    <section id="home-section"style="padding-top: 76px;" >
+      <br>
+      <div class="container ">
+        <div class="row" style="text-align: center;">
+          <div class="col-md-6 ">
+
+            <img src="hoonicorn.jpg" class="img-fluid rounded-circle " alt="dp" style="width:350px;height:350px;" >
+
+          </div>
+          <div class="col-md-6  text-muted my-auto" >
+            <h4>Just a demo,<br>
+            Project</h4>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="services-section">
+      <br>
+    <div class="container">
+      <h1 class="text-center text-muted">Services</h1>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="https://www.instagram.com/_king_snow_flakes_/"style="text-decoration: none;">
+          <div class="card text-center p-3" style="height: 348px;" >
+            <img class="card-img-top img-fluid mx-auto" src="download.png" alt="Card image cap" style="width:100px;height:100px;" >
+            <div class="card-body">
+              <h5 class="card-title text-muted ">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center p-3" >
+            <img class="card-img-top img-fluid mx-auto" src="download.png" alt="Card image cap" style="width:100px;height:100px;" >
+            <div class="card-body">
+              <h5 class="card-title text-muted ">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://www.youtube.com/c/GAMEFIED/videos" class="btn btn-info text-white">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center p-3"style="height: 348px;" >
+            <img class="card-img-top img-fluid mx-auto" src="download.png" alt="Card image cap" style="width:100px;height:100px;" >
+            <div class="card-body">
+              <h5 class="card-title text-muted ">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>     
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-center p-3" style="height: 348px;" >
+            <img class="card-img-top img-fluid mx-auto" src="download.png" alt="Card image cap" style="width:100px;height:100px;" >
+            <div class="card-body">
+              <h5 class="card-title text-muted ">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center p-3"style="height: 348px;" >
+            <img class="card-img-top img-fluid mx-auto" src="download.png" alt="Card image cap" style="width:100px;height:100px;" >
+            <div class="card-body">
+              <h5 class="card-title text-muted ">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center p-3" style="height: 348px;" >
+            <img class="card-img-top img-fluid mx-auto" src="download.png" alt="Card image cap" style="width:100px;height:100px;" >
+            <div class="card-body">
+              <h5 class="card-title text-muted ">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </section>
+    <section id="contact-section">
+      <br>
+      <div class="container">
+        <h1 class="text-center text-muted">CONTACT</h1>
+        <br>
+        <form>
+          <div class="row">
+            <div class="col">
+              <h4> <label  class="text-muted">Name</label></h4>
+              <input type="text" class="form-control" placeholder="full-name" aria-label="full-name">
+            </div>
+            <div class="col">
+              <h4> <label  class="text-muted">Place</label></h4>
+              <input type="text" class="form-control" placeholder="place" aria-label="place">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h4> <label  class="text-muted">Email</label></h4>
+              <input type="email" class="form-control" placeholder="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="col">
+              <h4> <label  class="text-muted">Mobile No:</label></h4>
+              <input type="tel" class="form-control" placeholder="mobile number" aria-label="place">
+            </div>
+          </div>
+          <div class="form-group">
+            <h4> <label  class="text-muted">Message</label></h4>
+            <textarea class="form-control mx-auto" id="exampleFormControlTextarea1" rows="3" placeholder="type here..." ></textarea>
+          </div>
+          <br>
+          <div class="col-md-12 text-center">
+          <button type="submit" class="btn btn-info text-white">Submit</button>
+        </div>
+        </form>
+      </div>
+      <br>
+    </section>
+    <footer class="bg-info text-center">
+      
+        <div class="row">
+        <div class="col-md-12 text-white ">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+<p>just a demo</p>
+        
+      </div>
+      </div>
+    </footer>
+
+
+
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8187581d23.js" crossorigin="anonymous"></script>
+  </body>
+</html>

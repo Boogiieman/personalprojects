@@ -1,0 +1,22 @@
+.header{
+    width: 100%;
+    background:orange;
+    height:150px;
+}
+.left-section{
+    width:200px;
+    height:400px;
+    float:left;
+    background:rgb(100, 66, 11);
+
+}
+.right-section{
+    width:200px;
+    height:400px;
+    float:right;
+    background:rgb(52, 177, 27);
+
+}
+body{
+    margin:0;
+}
